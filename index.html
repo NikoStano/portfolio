@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+    <title>NikoStano - Développeur @42</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <style type="text/css">
+        /* Styles de base adaptés de votre fichier et complétés par Tailwind */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Bleu nuit foncé */
+            color: #e2e8f0; /* Gris clair */
+            text-align: center; /* Centrage du texte pour l'ancienne base, ajusté par Tailwind */
+        }
+        /* Styles personnalisés pour les sections */
+        section {
+            padding: 4rem 0;
+            scroll-margin-top: 4rem; /* Pour un défilement doux vers les ancres */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        /* Effet de survol pour les boutons et liens */
+        .btn-primary {
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .btn-primary:hover {
+            background-color: #4f46e5; /* Bleu indigo plus foncé */
+            transform: translateY(-2px);
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #6366f1; /* Bleu indigo plus clair */
+        }
+        /* Ajustements pour les images de la base */
+        .footer-logo {
+            height: 31px; /* Hauteur fixe pour les petits logos */
+            width: auto; /* Largeur automatique pour maintenir les proportions */
+            margin: 0 10px; /* Espacement entre les logos */
+            display: inline-block; /* Pour les aligner côte à côte */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-slate-900 shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#accueil" class="text-2xl font-bold text-indigo-400 rounded-lg p-2 hover:text-indigo-300 transition-colors">NikoStano</a>
+            <ul class="flex space-x-6">
+                <li><a href="#accueil" class="nav-link text-lg font-medium text-slate-300 hover:text-indigo-400 rounded-md px-3 py-2">Accueil</a></li>
+                <li><a href="#a-propos" class="nav-link text-lg font-medium text-slate-300 hover:text-indigo-400 rounded-md px-3 py-2">À Propos</a></li>
+                <li><a href="#projets" class="nav-link text-lg font-medium text-slate-300 hover:text-indigo-400 rounded-md px-3 py-2">Projets</a></li>
+                <li><a href="#competences" class="nav-link text-lg font-medium text-slate-300 hover:text-indigo-400 rounded-md px-3 py-2">Compétences</a></li>
+                <li><a href="#contact" class="nav-link text-lg font-medium text-slate-300 hover:text-indigo-400 rounded-md px-3 py-2">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="relative bg-gradient-to-br from-indigo-900 to-blue-900 text-white text-center py-20 md:py-32 overflow-hidden rounded-b-3xl shadow-xl">
+    <div class="relative z-10 container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
+                NikoStano
+            </h1>
+            <p class="text-xl md:text-3xl font-light mb-8 drop-shadow-md">
+                Développeur @42 Paris | Passionné par le code et l'innovation
+            </p>
+            <a href="#projets" class="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out transform hover:scale-105">
+                Découvrir mes Projets
+            </a>
+        </div>
+    </section>
+
+    <section id="a-propos" class="bg-slate-800 text-slate-100 rounded-3xl mx-4 my-8 shadow-xl">
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="text-4xl font-bold text-center text-indigo-400 mb-10">À Propos de Moi</h2>
+            <div class="flex flex-col md:flex-row items-center md:space-x-12">
+                <div class="md:w-full text-lg leading-relaxed text-left" />
+                    <p class="mb-4">
+                        Je suis Nikola, un développeur junior en pleine formation à l'incroyable <span class="font-semibold text-indigo-300">École 42</span>. Mon parcours est axé sur l'apprentissage par la pratique, la résolution de problèmes complexes et la collaboration. J'ai une soif insatiable de connaissances et je suis constamment à la recherche de nouveaux défis pour affiner mes compétences.
+                    </p>
+                    <p class="mb-4">
+                        À 42, j'ai eu l'opportunité d'explorer un large éventail de technologies, de la programmation système en <span class="font-semibold text-indigo-300">C/C++</span> au développement web moderne. Je suis particulièrement intéressé par la création d'applications robustes et performantes, et j'aime comprendre comment les choses fonctionnent en profondeur.
+                    </p>
+                    <p>
+                        Mon objectif est de contribuer à des projets innovants et de continuer à grandir en tant que développeur au sein d'une équipe dynamique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="bg-slate-900 text-slate-100 rounded-3xl mx-4 my-8 shadow-xl">
+        <div class="container mx-auto px-3 py-12">
+            <h2 class="text-4xl font-bold text-center text-indigo-400 mb-10">Mes Projets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col justify-between transform hover:scale-105 transition-transform duration-300">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-indigo-300 mb-3">Projet Libft (c)</h3>
+                        <p class="text-slate-300 mb-4">
+                                Creation de librairie personnel pour Cursus42
+                        </p>
+                    </div>
+                    <a href="https://github.com/NikoStano/libft" target="_blank" class="mt-4 inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-medium text-center hover:bg-indigo-700 transition-colors">
+                        Voir sur GitHub
+                    </a>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col justify-between transform hover:scale-105 transition-transform duration-300">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-indigo-300 mb-3">Projet Get Next Line (c)</h3>
+                        <p class="text-slate-300 mb-4">
+                                Fonction qui print un fichier ligne par ligne
+                        </p>
+                    </div>
+                    <a href="https://github.com/NikoStano/get_next_line" target="_blank" class="mt-4 inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-medium text-center hover:bg-indigo-700 transition-colors">
+                        Voir sur GitHub
+                    </a>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl shadow-lg p-6 flex flex-col justify-between transform hover:scale-105 transition-transform duration-300">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-indigo-300 mb-3">Projet ft_printf (c)</h3>
+						<p class="text-slate-300 mb-4">
+                                Reproduction de la fonction PRINTF
+                        </p>
+                    </div>
+                    <a href="https://github.com/NikoStano/ft_printf" target="_blank" class="mt-4 inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-medium text-center hover:bg-indigo-700 transition-colors">
+                        Voir sur GitHub
+                    </a>
+                </div>
+
+                </div>
+            <div class="text-center mt-12">
+                <a href="https://github.com/NikoStano/" target="_blank" class="inline-block bg-indigo-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-indigo-600 transition-all duration-300 ease-in-out transform hover:scale-105">
+                    Voir tous mes projets sur GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="bg-slate-800 text-slate-100 rounded-3xl mx-4 my-8 shadow-xl">
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="text-4xl font-bold text-center text-indigo-400 mb-10">Mes Compétences</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">C / C++</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Python</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Développement Web (HTML, CSS, JS)</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Git / GitHub</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Linux / Unix</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Docker</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">SQL / Bases de données</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Réseaux</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="bg-slate-900 text-slate-100 rounded-3xl mx-4 my-8 shadow-xl">
+        <div class="container mx-auto px-4 py-12 text-center">
+            <h2 class="text-4xl font-bold text-indigo-400 mb-10">Un petit plus sur moi...</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center md:space-x-12">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="imgbanane.png" alt="Image abstraite BANANE" class="w-full h-auto rounded-lg shadow-lg border-4 border-slate-600 object-cover" />
+                </div>
+                <div class="md:w-1/2 text-lg leading-relaxed text-left">
+                    <p class="mb-4">
+                        Au-delà du code, j'aime explorer des univers créatifs et parfois un peu décalés. Cette image, bien que n'ayant pas de lien direct avec le développement, représente mon côté curieux et ma capacité à apprécier l'inattendu.
+                    </p>
+                    <p>
+                        C'est un rappel que même dans un domaine aussi structuré que la programmation, il y a toujours de la place pour l'originalité et la pensée latérale.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+	<p class="text-slate-300 mb-4">
+                                Reproduction de la fonction PRINTF
+                        </p>
+                    </div>
+                    <a href="https://github.com/NikoStano/ft_printf" target="_blank" class="mt-4 inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-medium text-center hover:bg-indigo-700 transition-colors">
+                        Voir sur GitHub
+                    </a>
+                </div>
+
+                </div>
+            <div class="text-center mt-12">
+                <a href="https://github.com/NikoStano/" target="_blank" class="inline-block bg-indigo-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-indigo-600 transition-all duration-300 ease-in-out transform hover:scale-105">
+                    Voir tous mes projets sur GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="bg-slate-800 text-slate-100 rounded-3xl mx-4 my-8 shadow-xl">
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="text-4xl font-bold text-center text-indigo-400 mb-10">Mes Compétences</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">C / C++</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Python</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Développement Web (HTML, CSS, JS)</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Git / GitHub</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Linux / Unix</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Docker</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">SQL / Bases de données</p>
+                </div>
+                <div class="bg-slate-700 p-4 rounded-lg text-center shadow-md">
+                    <p class="text-xl font-semibold text-indigo-200">Réseaux</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="bg-slate-900 text-slate-100 rounded-3xl mx-4 my-8 shadow-xl">
+        <div class="container mx-auto px-4 py-12 text-center">
+            <h2 class="text-4xl font-bold text-indigo-400 mb-10">Un petit plus sur moi...</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center md:space-x-12">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="imgbanane.png" alt="Image abstraite BANANE" class="w-full h-auto rounded-lg shadow-lg border-4 border-slate-600 object-cover" />
+                </div>
+                <div class="md:w-1/2 text-lg leading-relaxed text-left">
+                    <p class="mb-4">
+                        Au-delà du code, j'aime explorer des univers créatifs et parfois un peu décalés. Cette image, bien que n'ayant pas de lien direct avec le développement, représente mon côté curieux et ma capacité à apprécier l'inattendu.
+                    </p>
+                    <p>
+                        C'est un rappel que même dans un domaine aussi structuré que la programmation, il y a toujours de la place pour l'originalité et la pensée latérale.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
